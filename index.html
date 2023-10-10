@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-black">
+    <div class="content w-full flex justify-center mt-14">
+        <div class="calculator w-[30%] bg-gray-500 h-[100vh] flex flex-col items-center font-semibold">
+            <div>
+                <input class="input my-4 px-28 py-2" type="text">
+            </div>
+            <div class="row flex w-full justify-center space-x-16 my-4">
+                <button class="btn bg-black text-white border-2 rounded-md p-8">AC</button>
+                <button class="btn bg-black text-white border-2 rounded-md p-8">%</button>
+                <button class="btn bg-yellow-600 text-white border-2 rounded-md p-8">/</button>
+                <!-- <button class="btn bg-black text-white border-2 rounded-md p-8">*</button> -->
+            </div>
+            <div class="row flex w-full justify-center space-x-6 my-4">
+                <button class="btn bg-black text-white border-2 rounded-md p-8">7</button>
+                <button class="btn bg-black text-white border-2 rounded-md p-8">8</button>
+                <button class="btn bg-black text-white border-2 rounded-md p-8">9</button>
+                <button class="btn bg-yellow-600 text-white border-2 rounded-md p-8">*</button>
+            </div>
+            <div class="row flex w-full justify-center space-x-6 my-4">
+                <button class="btn bg-black text-white border-2 rounded-md p-8">4</button>
+                <button class="btn bg-black text-white border-2 rounded-md p-8">5</button>
+                <button class="btn bg-black text-white border-2 rounded-md p-8">6</button>
+                <button class="btn bg-yellow-600 text-white border-2 rounded-md p-8">-</button>
+            </div>
+            <div class="row flex w-full justify-center space-x-6 my-4">
+                <button class="btn bg-black text-white border-2 rounded-md p-8">1</button>
+                <button class="btn bg-black text-white border-2 rounded-md p-8">2</button>
+                <button class="btn bg-black text-white border-2 rounded-md p-8">3</button>
+                <button class="btn bg-yellow-600 text-white border-2 rounded-md p-8">+</button>
+            </div>
+            <div class="row flex w-full justify-center space-x-16 my-4">
+                <button class="btn bg-black text-white border-2 rounded-md p-8">0</button>
+                <button class="btn bg-black text-white border-2 rounded-md p-8">.</button>
+                <button class="btn bg-yellow-600 text-white border-2 rounded-md p-8 ">=</button>
+                
+            </div>
+
+        </div>
+
+    </div>
+    <script src="calc.js"></script>
+</body>
+</html>
